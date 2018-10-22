@@ -11,5 +11,6 @@ class Dollar {
     }
 
     public void times(int i) {
+        this.amount = this.amount * 1;
     }
 }
