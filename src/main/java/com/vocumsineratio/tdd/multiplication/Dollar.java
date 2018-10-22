@@ -6,8 +6,8 @@ package com.vocumsineratio.tdd.multiplication;
 class Dollar {
     public int amount;
 
-    public Dollar(int i) {
-        amount = i * 2;
+    public Dollar(int amount) {
+        this.amount = amount * 2;
     }
 
     public void times(int i) {
