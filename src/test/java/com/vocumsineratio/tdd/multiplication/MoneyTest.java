@@ -20,4 +20,11 @@ public class MoneyTest {
         four.times(2);
         Assertions.assertEquals(8, four.amount);
     }
+
+    @Test
+    public void testMultiplicationMicrostepThree() {
+        Dollar four = new Dollar(4);
+        four.times(3);
+        Assertions.assertEquals(12, four.amount);
+    }
 }
